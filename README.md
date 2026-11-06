@@ -33,11 +33,11 @@ A hako registry is a plain git repository. It contains **no binaries**, only one
 
 4. **Commit and push**, then point hako at it:
    ```sh
-   hako registry add myteam https://github.com/you/your-registry.git
+   hako registry add myregistry https://github.com/you/your-registry.git
    hako search
    hako install mytool
    ```
-   You can use several registries at the same time. If two registries have a package with the same name, choose one with `hako install myteam/mytool`.
+   You can use several registries at the same time. If two registries have a package with the same name, choose one with `hako install myregistry/mytool`.
 
 **Private registries** work too. Use an SSH URL (`git@github.com:you/your-registry.git`), and hako clones it with your SSH key. The **release files** themselves must still be downloadable without signing in (see below).
 
