@@ -14,3 +14,7 @@ Manifest rules:
 - `name` must match the file name and contain only `[a-z0-9_-]`.
 - Version keys must be valid semver (`1.2.3`, not `v1.2.3`).
 - `bin` lists executable paths relative to the archive root. A single top-level wrapper directory such as `hello-1.0.0/` is stripped automatically.
+
+## License
+
+[MIT](LICENSE)
