@@ -1,3 +1,5 @@
+!disclaimer! I vibe-coded this whole thing...
+
 # hako-packages
 
 The package registry for [hako](https://github.com/j-kop/hako-source). Each package is described by one manifest, `packages/<name>.toml`.
