@@ -11,7 +11,6 @@ A hako registry is a plain git repository. It contains **no binaries**, only one
 | Package | What it is |
 |---|---|
 | `hako` | hako itself, so `hako upgrade` keeps hako up to date |
-| `ripgrep` | `rg`, a fast recursive search tool |
 
 ## How to: set up your own registry
 
@@ -121,7 +120,7 @@ Rules:
 curl -fsSL <url> | sha256sum        # Linux
 curl -fsSL <url> | shasum -a 256    # macOS
 ```
-If the project publishes its own checksums (like ripgrep's `.sha256` files), compare them against what you computed.
+If the project publishes its own checksums (for example a `.sha256` file next to each release file), compare them against what you computed.
 
 ### Adding a new version
 Add another `[versions."X.Y.Z".targets.<key>]` section for each platform, and **keep the old ones**. That way `hako upgrade` moves everyone to the new version, and `hako install mytool@1.0.0` still works for anyone who needs the old one.
