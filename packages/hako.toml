@@ -1,0 +1,21 @@
+name        = "hako"
+description = "Git-based package manager (hako itself)"
+repo        = "https://github.com/j-kop/hako-source"
+license     = "MIT"
+bin         = ["hako"]
+
+[versions."0.2.0".targets.x86_64-linux]
+url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-x86_64-linux.tar.gz"
+sha256 = "582640527b080e6d7f7066c48a567c61eabf9a9771d9ec37f073a69a8dec837f"
+
+[versions."0.2.0".targets.aarch64-linux]
+url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-aarch64-linux.tar.gz"
+sha256 = "48722958e12e70fb4d3039907dc2331147d4a954610018cdf573ea36ecfeeff7"
+
+[versions."0.2.0".targets.x86_64-macos]
+url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-x86_64-macos.tar.gz"
+sha256 = "d6ca620b20cfd45ff6f0aebbe08f62c0e1d8980965a7ddce25289e60a095b3e4"
+
+[versions."0.2.0".targets.aarch64-macos]
+url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-aarch64-macos.tar.gz"
+sha256 = "6c9aa9f2e30b96b4db1757ee6a86761164065a07cc67131cdcbdf97cc95902ce"
