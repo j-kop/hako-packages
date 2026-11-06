@@ -1,0 +1,2 @@
+# Registry format version. hako refuses registries with a schema it doesn't know.
+schema = 1
