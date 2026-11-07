@@ -4,34 +4,18 @@ repo        = "https://github.com/j-kop/hako-source"
 license     = "MIT"
 bin         = ["hako"]
 
-[versions."0.2.0".targets.x86_64-linux]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-x86_64-linux.tar.gz"
-sha256 = "582640527b080e6d7f7066c48a567c61eabf9a9771d9ec37f073a69a8dec837f"
+[versions."1.0.0".targets.x86_64-linux]
+url    = "https://github.com/j-kop/hako-source/releases/download/v1.0.0/hako-x86_64-linux.tar.gz"
+sha256 = "420c8164f9c7dc82e242662ff2e4e10b92f825bea4caa38af575177ade6595b8"
 
-[versions."0.2.0".targets.aarch64-linux]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-aarch64-linux.tar.gz"
-sha256 = "48722958e12e70fb4d3039907dc2331147d4a954610018cdf573ea36ecfeeff7"
+[versions."1.0.0".targets.aarch64-linux]
+url    = "https://github.com/j-kop/hako-source/releases/download/v1.0.0/hako-aarch64-linux.tar.gz"
+sha256 = "7c0bddf8d850d8e9434700803d0537ef6a6601fd6df0ca837ff7a48435d49f4a"
 
-[versions."0.2.0".targets.x86_64-macos]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-x86_64-macos.tar.gz"
-sha256 = "d6ca620b20cfd45ff6f0aebbe08f62c0e1d8980965a7ddce25289e60a095b3e4"
+[versions."1.0.0".targets.x86_64-macos]
+url    = "https://github.com/j-kop/hako-source/releases/download/v1.0.0/hako-x86_64-macos.tar.gz"
+sha256 = "6c7f849de380d871859cf075406f1d610f34e41233cb06d7e3280c7a0e033d88"
 
-[versions."0.2.0".targets.aarch64-macos]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.0/hako-aarch64-macos.tar.gz"
-sha256 = "6c9aa9f2e30b96b4db1757ee6a86761164065a07cc67131cdcbdf97cc95902ce"
-
-[versions."0.2.1".targets.x86_64-linux]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.1/hako-x86_64-linux.tar.gz"
-sha256 = "7aa399ca5ac9ee772030e81073544e19f58bc8ae0a39f3f047cb2b9e136bbbc0"
-
-[versions."0.2.1".targets.aarch64-linux]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.1/hako-aarch64-linux.tar.gz"
-sha256 = "8fc0a40b0fc36db43e5ee3f0fa649195c227862a8e7627151ba752be3752e017"
-
-[versions."0.2.1".targets.x86_64-macos]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.1/hako-x86_64-macos.tar.gz"
-sha256 = "ff26d61f903852bd60705ebbfaf857d0b87c600b205b87fd25d05d37fe273544"
-
-[versions."0.2.1".targets.aarch64-macos]
-url    = "https://github.com/j-kop/hako-source/releases/download/v0.2.1/hako-aarch64-macos.tar.gz"
-sha256 = "13572bdeffef06b811d7f33c1e72f2df610283468681bc7bb80e7923f65cba94"
+[versions."1.0.0".targets.aarch64-macos]
+url    = "https://github.com/j-kop/hako-source/releases/download/v1.0.0/hako-aarch64-macos.tar.gz"
+sha256 = "c20984ea7eb3949f00ec3338799a97cce33878041768aadef03329d8593543d4"
